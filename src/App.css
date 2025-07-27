@@ -1,0 +1,183 @@
+body {
+  background-color: #0f1624 !important;
+}
+
+.b-name {
+  background: -webkit-linear-gradient(
+      326deg,
+      #df12dc 0%,
+      rgba(208, 17, 172, 0.44) 64.98%,
+      transparent 100%
+    ),
+    -webkit-linear-gradient(13deg, #ab149e 0%, #b71689 64.066%, #c410e5 71.15%, #521cef
+          100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.nav-link {
+  color: white;
+  font-size: 20px;
+}
+
+.nav-link.active {
+  background: -webkit-linear-gradient(
+      326deg,
+      #df12dc 0%,
+      rgba(208, 17, 172, 0.44) 64.98%,
+      transparent 100%
+    ),
+    -webkit-linear-gradient(13deg, #ab149e 0%, #b71689 64.066%, #c410e5 71.15%, #521cef
+          100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  background: -webkit-linear-gradient(
+      326deg,
+      #df12dc 0%,
+      rgba(208, 17, 172, 0.44) 64.98%,
+      transparent 100%
+    ),
+    -webkit-linear-gradient(13deg, #ab149e 0%, #b71689 64.066%, #c410e5 71.15%, #521cef
+          100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-shadow {
+  color: rgba(255, 255, 255, 0.08);
+  z-index: 0;
+}
+
+.box {
+  -webkit-box-shadow: -2px 3px 23px -6px #2e47ff;
+  box-shadow: -2px 3px 23px -6px #2e47ff;
+  border: 2px solid white;
+  border-radius: 12px;
+  min-height: 400px;
+}
+
+.logo {
+  transition: all 0.3s linear;
+  border: 1px solid #2e47ff;
+  cursor: pointer;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  border-radius: 30px;
+  padding: 4px;
+}
+
+.logo:hover {
+  transform: scale(1.1);
+  -webkit-box-shadow: -2px 3px 23px -6px #2e47ff;
+  box-shadow: -2px 3px 23px -6px #2e47ff;
+}
+
+.title {
+  background: -webkit-linear-gradient(
+      326deg,
+      #df12dc 0%,
+      rgba(208, 17, 172, 0.44) 64.98%,
+      transparent 100%
+    ),
+    -webkit-linear-gradient(13deg, #ab149e 0%, #b71689 64.066%, #c410e5 71.15%, #521cef
+          100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card {
+  -webkit-box-shadow: 0px 4px 30px 0px rgba(46, 71, 255, 0.5);
+  box-shadow: 0px 4px 30px 0px rgba(46, 71, 255, 0.2);
+  height: 100%;
+  background-color: transparent;
+  color: white;
+  transition: all 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 4px 30px 0px rgba(46, 71, 255, 0.5);
+}
+
+.card-body {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+::placeholder {
+  color: white !important;
+}
+
+.send-btn {
+  background-color: #ab149e;
+  color: white;
+  border: 2px solid #ab149e;
+}
+
+.send-btn:hover {
+  background-color: transparent;
+  border: 2px solid #ab149e;
+}
+
+.contact {
+  -webkit-box-shadow: 0px 4px 30px 0px rgba(46, 71, 255, 0.5);
+  box-shadow: 0px 4px 30px 0px rgba(46, 71, 255, 0.2);
+}
+
+.contact input:focus,
+.contact textarea:focus,
+.contact button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.foot {
+  -webkit-box-shadow: 0px 4px 30px 0px rgba(46, 71, 255, 0.5);
+  box-shadow: 0px 4px 30px 0px rgba(46, 71, 255, 0.9);
+}
+
+.cta-btn {
+  padding: 10px 20px;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  border: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.download-cv-btn {
+  background: linear-gradient(90deg, #7F00FF, #E100FF);
+}
+
+.download-cv-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(127, 0, 255, 0.5);
+  color: white;
+  text-decoration: none;
+}
+
+.hire-me-btn {
+  background: linear-gradient(90deg, #00C9FF, #92FE9D);
+  margin-right: 15px;
+}
+
+.hire-me-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 201, 255, 0.4);
+  color: white;
+  text-decoration: none;
+}
+
