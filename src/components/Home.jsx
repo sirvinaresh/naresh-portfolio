@@ -25,7 +25,7 @@ function Home() {
 
               <h1 style={{fontSize:'60px',fontWeight:'bold'}}>I'm Naresh Sirvi</h1>
               
-              <h3 >Full Stack Developer <span style={{ color: "#61DAFB" }}>
+              <h4 >Full Stack Developer <span style={{ color: "#61DAFB" }}>
                   
                     <TypeAnimation
                   sequence={[
@@ -45,7 +45,7 @@ function Home() {
                   repeat={Infinity}
                 />
                   
-                </span></h3>
+                </span></h4>
               <h3>
               </h3>
               <p style={{color:'#D1D5DB'}}>

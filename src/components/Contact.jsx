@@ -49,7 +49,7 @@ function Contact() {
   return (
     <>
         <Container className=" my-5 text-light " data-aos="fade-up">
-            <Row className=' border-top'>
+            <Row className=' border-top px-3'>
                 <div className="position-relative text-center my-5">
                     <h1 className="display-4 fw-bold text-shadow">CONTACT</h1>
                     <h1 className="position-absolute top-0 start-50  translate-middle fw-bold text-white">CONTACT</h1>
@@ -65,8 +65,8 @@ function Contact() {
                 </div>
             </Col>
 
-            <Col lg={6} md={6} sm={12} className='border border-2 border-secondary rounded-2 contact'>
-                <Form className='my-5' ref={form} onSubmit={sendEmail} >
+            <Col lg={6} md={6} sm={12} className='border border-2 border-secondary rounded-2 contact '>
+                <Form className='my-5 ' ref={form} onSubmit={sendEmail} >
                     <Row className="mb-4">
                         <Form.Group  className="" as={Col}  >
                         <Form.Control type="text" name='fname' required placeholder="First Name" className=' bg-transparent border-0  border-bottom rounded-0 text-light'/>
