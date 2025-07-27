@@ -33,7 +33,7 @@ function Projects() {
         title:'Finance Tracker : Personal Expense Manager',
         lang:'React, Redux, Bootstrap, JavaScript',
         des:'Finance Tracker is a simple and intuitive web application that helps users manage their income and expenses. It allows users to add or delete transactions and view real-time balance updates. Ideal for tracking daily spending in an organized way.',
-        visit:'https://finance-tracker-rust-seven.vercel.app/',
+        visit:'https://perosnalfinance-tracker.vercel.app/',
         git:'https://github.com/sirvinaresh/finance-tracker.git'
       },
 
